@@ -45,10 +45,10 @@ namespace PhoneBook
         {
             CultureInfo culture = SelectCultureOfUser();
 
-            Console.WriteLine("Input FirstName of user:");
+            Console.WriteLine("Input Name of user:");
             string firstName = Console.ReadLine();
 
-            Console.WriteLine("Input LastName of user:");
+            Console.WriteLine("Input Surname of user:");
             string lastName = Console.ReadLine();
 
             Console.WriteLine("Input phone number of user");
